@@ -1,0 +1,135 @@
+body {
+    font-family:'Roboto', sans-serif;
+    background-color: #f5e8d7;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    background-color: #ffffff;
+    border-radius: 20px;
+    box-shadow: 0 0 10px #0000001a;
+    max-width: 700px;
+    width: 100%;
+    padding: 50px;
+    margin: 20px;
+}
+
+.container img {
+    width: 100%;
+    border-radius: 20px;
+}
+
+
+h1 {
+    font-family: 'Young Serif';
+    font-size: 45px;
+    margin-top: 50px;
+    margin-bottom: 30px;
+    color: #302d2c;
+}
+
+p {
+    font-size: 16px;
+    color: #5f574e;
+    line-height: 1.6;
+}
+
+
+.preptime {
+    background-color: #fff5fa;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 700px;
+}
+
+.preptime h2 {
+    font-family: 'Young Serif';
+    margin-bottom: 10px 0;
+    color: #7b284f;
+}
+
+.preptime ul {
+    margin: 10px 0;
+    color:#5f574e;
+    padding-left: 20px;
+}
+
+.preptime ul li {
+    margin-bottom: 20px;
+}
+
+
+.section {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #e4ded8;
+}
+
+.section h2 {
+    font-family: 'Young Serif';
+    font-size: 35px;
+    color: #854532;
+    margin-bottom: 20px;
+}
+
+.section ul {
+    padding-left: 40px;
+}
+
+.section ul li {
+    font-size: 16px;
+    color: #5f574e;
+    margin-bottom: 20px;
+}
+
+.section ol {
+    padding-left: 20px;
+}
+
+.section ol li {
+    font-size: 16px;
+    color: #5f574e;
+    margin-bottom: 20px;
+}
+
+
+.nutrition-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.nutrition-table th, .nutrition-table td {
+    border-bottom: 1px solid #e4ded8;
+    padding: 15px;
+    text-align: left;
+}
+
+.nutrition-table th {
+    color: #5f574e;
+    font-weight: 100;
+}
+
+.nutrition-table td {
+    color:#854532;
+    font-weight: 700;
+}
+
+
+@media (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+    h1 {
+        font-size: 20px;
+    }
+    .section h2 {
+        font-size: 18px;
+    }
+    p, .section ul li, .section ol li {
+        font-size: 14px;
+    }
+}
